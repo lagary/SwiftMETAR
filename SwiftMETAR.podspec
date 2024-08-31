@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
     s.dependency 'Quick', '~> 7.6.2'
     s.dependency 'Nimble', '~> 13.4.0'
-    s.dependency 'NumberKit', '~> 2.6'
+    s.dependency 'NumberKit', :git => 'https://github.com/apollographql/apollo-ios'
     s.dependency 'STRegex', '~> 2.1.1'
 
     s.source_files = 'Sources/SwiftMETAR/**/*'
