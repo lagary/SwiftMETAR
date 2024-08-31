@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   
     s.description      = <<-DESC
-  OpenAI Swift SDK
+  SwiftMETAR Parser
                          DESC
   
     s.homepage         = 'https://github.com/lagary/SwiftMETAR'
@@ -29,6 +29,11 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
     s.ios.deployment_target = '15.0'
-  
+
+    s.dependency 'Quick'
+    s.dependency 'Nimble'
+    s.dependency 'NumberKit'
+    s.dependency 'STRegex'
+
     s.source_files = 'Sources/SwiftMETAR/**/*'
   end
