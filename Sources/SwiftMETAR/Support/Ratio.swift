@@ -1,5 +1,5 @@
 import Foundation
-import NumberKit
+
 
 public typealias Ratio = Rational<Int>
 

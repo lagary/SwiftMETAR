@@ -1,5 +1,4 @@
 import Foundation
-import NumberKit
 import Regex
 
 fileprivate let fractionalRx = Regex(#"^([PM])?(\d+)\/(\d+)SM$"#)

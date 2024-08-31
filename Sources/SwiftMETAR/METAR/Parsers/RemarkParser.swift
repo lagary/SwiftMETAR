@@ -1,5 +1,4 @@
 import Foundation
-import NumberKit
 import Regex
 
 let directionFromString: Dictionary<String, Remark.Direction> = [
