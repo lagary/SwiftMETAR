@@ -103,10 +103,5 @@ extension Error: LocalizedError {
 }
 
 fileprivate func t(_ key: String, comment: String, _ arguments: CVarArg...) -> String {
-    let format = NSLocalizedString(key, bundle: Bundle.module, comment: comment)
-    if arguments.isEmpty {
-        return format
-    } else {
-        return String(format: format, arguments: arguments)
-    }
+    return String(format: key, arguments: arguments)
 }
